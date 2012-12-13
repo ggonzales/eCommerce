@@ -25,6 +25,7 @@ public class RecordHeatLevelActivity extends BaseActivity{
 	    @Override
 	    public ProcessContext execute(ProcessContext context) throws Exception {
 	    	LOG.warn("##################################################################");
+	    	LOG.warn("##################################################################");
 	        CheckoutSeed seed = ((CheckoutContext) context).getSeedData();
 	        Order order =  seed.getOrder();
 	        int orderTotalHeatRating = 0;
